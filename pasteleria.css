@@ -1,0 +1,77 @@
+body{
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 300px
+}
+
+main {
+    margin: 10px;
+}
+
+
+main ul dl dt, dd{
+    padding: 10px;
+}
+
+main section ul li {
+    list-style-type: square;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+}
+
+.opciones {
+    padding: 4px;
+}
+
+main form select{
+    border: solid 1px white;
+    border-radius: 20px;
+}
+
+main button{
+    padding: 8px;
+    margin: 5px;
+    border: solid 1px white;
+    border-radius: 20px;
+    background-color: rgb(78, 204, 250);
+}
+
+main button:hover{
+    background-color: rgb(211, 118, 255);
+    color:white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+footer h2 {
+    padding-left: 146px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer table {
+    text-align: center;
+    margin: 10px;
+}
+
+footer table tbody tr td {
+    padding: 10px;
+}
